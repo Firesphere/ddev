@@ -1071,7 +1071,7 @@ available in the `vendor/bin` folder.
 Common commands:
 
 * Build database: `ddev sake dev/build`
-*List of available tasks: `ddev sake dev/tasks`
+* List of available tasks: `ddev sake dev/tasks`
 
 ## `self-upgrade`
 
