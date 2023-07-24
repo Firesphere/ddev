@@ -70,5 +70,6 @@ func silverstripeConfigOverrideAction(app *DdevApp) error {
 	app.WebserverType = nodeps.WebserverApacheFPM
 	app.Database.Type = nodeps.MariaDB
 	app.Database.Version = nodeps.MariaDB104
+	app.UploadDirs = append(app.UploadDirs, "public/assets")
 	return nil
 }
